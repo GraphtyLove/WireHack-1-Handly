@@ -4,7 +4,7 @@
   body a { text-decoration: none; }
   body a:visited { color: #fff; }
   body a:hover { color: black; background-color: #fff; }
-  body .button { border: 2px solid white; width: 200px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 5vw; color: #fff; cursor: pointer; }
+  body .button { border: 2px solid white; width: 200px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 10px; color: #fff; cursor: pointer; }
   main { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 20px; } }
 
@@ -14,7 +14,7 @@
   body a { text-decoration: none; }
   body a:visited { color: #fff; }
   body a:hover { color: black; background-color: #fff; }
-  body .button { border: 2px solid white; width: 250px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 3vw; color: #fff; cursor: pointer; }
+  body .button { border: 2px solid white; width: 250px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 15px; color: #fff; cursor: pointer; }
   main { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 20px; } }
 
@@ -24,7 +24,7 @@
   body a { text-decoration: none; }
   body a:visited { color: #fff; }
   body a:hover { color: black; background-color: #fff; }
-  body .button { border: 2px solid white; width: 250px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 2vw; color: #fff; cursor: pointer; }
+  body .button { border: 2px solid white; width: 250px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 20px; color: #fff; cursor: pointer; }
   main { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 20px; } }
 
