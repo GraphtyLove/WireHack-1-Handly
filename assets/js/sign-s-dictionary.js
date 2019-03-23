@@ -26,9 +26,6 @@ function searchFunction() {
             else{
                 console.log("DIFF")
                 letterArray[i].style.display = "none"
-
             }
-    }
+        }
 }
-
-// Display the image that is equal to the letter typed
