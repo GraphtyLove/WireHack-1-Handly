@@ -2,9 +2,12 @@ $clearBlue : #00aeeF;
 $darkBlue : #000430; 
 $font : 'Quicksand', sans-serif;
 
-body {
+@media screen and (max-width: 600px){
+
+body, html {
     font-family: $font;
     overflow: hidden!important;
+    margin: 0;
 
 }
 
@@ -29,13 +32,13 @@ body {
 }
 
 .camera {
-    position: absolute;
-    top: 0%;
-    left: 0%;
+position: flex;
+height: 94vh;
+width: 100vw;
 }
 
 .invisible {
-    height: 100%;
+    height: 50%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -44,11 +47,15 @@ body {
     opacity: 0;
 }
 
+
+
 ul{
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: rgba(86, 86, 87, 0.2);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.767);
     padding-top: 10px;
     padding-bottom: 10px;
     transition: 1s;
@@ -56,19 +63,184 @@ ul{
     position: fixed;
     bottom: 0;
     left: 0;
-}
+    padding-left: 0;
+    height: 9vh;
 
-li {
-    display: inline-block;
+    }
+    
+    li {
+    display: flex;
     text-align: center;
-    padding-right: 5vw;
-    a {
+    justify-content: center;
+    align-items: center;
+        a {
         color: white;
         text-decoration: none;
-        font-size: 3vw;
+        font-size: 4vw;
+        }
     }
 }
 
-.active {
-    color: $darkBlue;
-}
+@media screen and (min-width: 601px) and (max-width: 999px){
+
+    body, html {
+        font-family: $font;
+        overflow: hidden!important;
+        margin: 0;
+        background-color: #000;
+    
+    }
+    
+    .translatedLetter {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 12%;
+        background-color: rgba(192, 192, 192, 0.5);
+        color:  $clearBlue;
+        font-size: 700%;
+        font-weight: bold;
+        text-align: center;
+        z-index : 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        z-index: 1;
+    }
+    
+    .camera {
+    position: flex;
+    height: 94vh;
+    width: 100vw;
+    }
+    
+    .invisible {
+        height: 50%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0;
+    }
+    
+    
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.767);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 1s;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-left: 0;
+        height: 9vh;
+    
+        }
+        
+        li {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+            a {
+            color: white;
+            text-decoration: none;
+            font-size: 4vw;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1000px){
+
+        body, html {
+            font-family: $font;
+            overflow: hidden!important;
+            margin: 0;
+            background-color: #000;
+        
+        }
+        
+        .translatedLetter {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 12%;
+            background-color: rgba(192, 192, 192, 0.5);
+            color:  $clearBlue;
+            font-size: 700%;
+            font-weight: bold;
+            text-align: center;
+            z-index : 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            z-index: 1;
+        }
+        
+        .camera {
+        position: flex;
+        height: 100vh;
+        width: 100vw;
+        video{
+            height: 100vh;
+            width: 100vw;
+        }
+        }
+        
+        .invisible {
+            height: 50%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            opacity: 0;
+        }
+        
+        
+        
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            margin-top: 0;
+            margin-bottom: 0;
+            background-color: rgba(0, 0, 0, 0.767);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: 1s;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding-left: 0;
+            height: 9vh;
+        
+            }
+            
+            li {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+                a {
+                color: white;
+                text-decoration: none;
+                font-size: 4vw;
+                }
+            }
+        }

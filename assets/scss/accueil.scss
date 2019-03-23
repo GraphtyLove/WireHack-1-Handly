@@ -1,56 +1,176 @@
-body{
-     height: 100vh;
-     background: linear-gradient(#00aeeF , #000430);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     font-family: 'Quicksand', sans-serif;
-     overflow: hidden;
+@media screen and (max-width: 600px){
 
-     user-select: none;
-     list-style-type:none;
-     h1{
-          width: 100%;
-          font-size: 60px;
-          color: white;
-          text-align: center;
+
+body{
+          height: 100vh;
+          background: linear-gradient(#00aeeF , #000430);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-family: 'Quicksand', sans-serif;
+          overflow: hidden;
+     
+          user-select: none;
+          list-style-type:none;
+          h1{
+               width: 100%;
+               font-size: 60px;
+               color: white;
+               text-align: center;
+          }
+          h2{
+               width: 100%;
+               color: white;
+               font-size: 40px;
+               text-align: center;
+          }
+          a{
+               text-decoration: none;
+          }
+          a:visited{
+               color: #fff;
+          }
+          a:hover{
+               color:black;
+               background-color: #fff;
+          }
+          .button{
+               border: 2px solid white;
+               width: 200px;
+               text-align: center;
+               padding: 10px 5px;
+               border-radius: 50px;
+               font-size: 5vw;
+               color: #fff;
+               cursor: pointer;
+          }
      }
-     h2{
-          width: 100%;
-          color: white;
-          font-size: 40px;
-          text-align: center;
+     main{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
      }
-     a{
-          text-decoration: none;
+     .flex{
+          display: flex;
+          justify-content: center;
+          margin: 20px;
      }
-     a:visited{
-          color: #fff;
      }
-     a:hover{
-          color:black;
-          background-color: #fff;
+     @media screen and (min-width: 601px) and (max-width: 999px) {
+          body{
+               height: 100vh;
+               background: linear-gradient(#00aeeF , #000430);
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+               font-family: 'Quicksand', sans-serif;
+               overflow: hidden;
+          
+               user-select: none;
+               list-style-type:none;
+               h1{
+                    width: 100%;
+                    font-size: 60px;
+                    color: white;
+                    text-align: center;
+               }
+               h2{
+                    width: 100%;
+                    color: white;
+                    font-size: 40px;
+                    text-align: center;
+               }
+               a{
+                    text-decoration: none;
+               }
+               a:visited{
+                    color: #fff;
+               }
+               a:hover{
+                    color:black;
+                    background-color: #fff;
+               }
+               .button{
+                    border: 2px solid white;
+                    width: 250px;
+                    text-align: center;
+                    padding: 10px 5px;
+                    border-radius: 50px;
+                    font-size: 3vw;
+                    color: #fff;
+                    cursor: pointer;
+               }
+          }
+          main{
+               height: 100%;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-around;
+               align-items: center;
+          }
+          .flex{
+               display: flex;
+               justify-content: center;
+               margin: 20px;
+          }
+          }
+     @media screen and (min-width: 1000px) {
+          body{
+               height: 100vh;
+               background: linear-gradient(#00aeeF , #000430);
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+               font-family: 'Quicksand', sans-serif;
+               overflow: hidden;
+          
+               user-select: none;
+               list-style-type:none;
+               h1{
+                    width: 100%;
+                    font-size: 60px;
+                    color: white;
+                    text-align: center;
+               }
+               h2{
+                    width: 100%;
+                    color: white;
+                    font-size: 40px;
+                    text-align: center;
+               }
+               a{
+                    text-decoration: none;
+               }
+               a:visited{
+                    color: #fff;
+               }
+               a:hover{
+                    color:black;
+                    background-color: #fff;
+               }
+               .button{
+                    border: 2px solid white;
+                    width: 250px;
+                    text-align: center;
+                    padding: 10px 5px;
+                    border-radius: 50px;
+                    font-size: 2vw;
+                    color: #fff;
+                    cursor: pointer;
+               }
+          }
+          main{
+               height: 100%;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-around;
+               align-items: center;
+          }
+          .flex{
+               display: flex;
+               justify-content: center;
+               margin: 20px;
+          }
      }
-     .button{
-          border: 2px solid white;
-          width: 200px;
-          text-align: center;
-          padding: 10px 5px;
-          border-radius: 50px;
-          font-size: 5vw;
-          color: #fff;
-          cursor: pointer;
-     }
-}
-main{
-     height: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: center;
-}
-.flex{
-     display: flex;
-     justify-content: center;
-     margin: 20px;
-}
