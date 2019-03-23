@@ -1,6 +1,8 @@
 html { font-family: "Quicksand", sans-serif; overflow: hidden; }
 
-.translatedLetter { position: absolute; bottom: 1%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; height: 12%; background-color: rgba(192, 192, 192, 0.5); color: #00aeeF; font-size: 700%; font-weight: bold; text-align: center; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.translatedLetter { position: absolute; bottom: 1%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; height: 12%; background-color: rgba(192, 192, 192, 0.5); color: #00aeeF; font-size: 700%; font-weight: bold; text-align: center; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 0; z-index: 1; }
 
 .camera { position: absolute; top: 0%; left: 0%; }
-/*# sourceMappingURL=style.css.map */
+
+.testons { height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: 1; }
+/*# sourceMappingURL=styleCameraTranslator.css.map */

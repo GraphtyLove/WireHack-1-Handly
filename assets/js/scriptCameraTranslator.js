@@ -24,3 +24,12 @@ function handleStream(stream) {
 
 // Initialization at the launch of the page
 init();
+
+// Function for presentation
+let prentationSim = document.getElementById('invisible')
+presentationSim.addEventListener('mousedown', wAppear);
+
+function wAppear() {
+    console.log("test")
+    document.getElementById('translatedLetter').style.opacity = '1';
+}

@@ -24,10 +24,21 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    z-index: 1;
 }
 
 .camera {
     position: absolute;
     top: 0%;
     left: 0%;
+}
+
+.testons {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
