@@ -1,21 +1,36 @@
-body{
+body {
      font-family: 'Quicksand', sans-serif;
-     text-align: justify; 
+     text-align: justify;
      padding-right: 6%;
      padding-left: 6%;
-     h1{
-          font-size: 10vw;
+
+     h1 {
+          font-size: 60px;
           color: #00aeeF;
-          
+
      }
-     h2{
-          font-size: 6vw;
+
+     h2 {
+          font-size: 30px;
      }
-     img{
-          width: 11vw;
+
+     img {
+          width: 50px;
      }
-     p{
+
+     p {
           padding: 1%;
-         
+     }
+}
+
+@media screen and (min-width : 1400px) {
+     body {
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          text-align: justify;
+          justify-content: center;
+          align-items: center;
+          width: 30%;
      }
 }
