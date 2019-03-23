@@ -1,18 +1,18 @@
-body { height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#00aeeF), to(#000430)); background: linear-gradient(#00aeeF, #000430); background-position: center; background-repeat: no-repeat; background-size: cover; font-family: 'Quicksand', sans-serif; overflow: hidden !important; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; list-style-type: none; }
+body { height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#00aeeF), to(#000430)); background: linear-gradient(#00aeeF, #000430); background-position: center; background-repeat: no-repeat; background-size: cover; font-family: 'Quicksand', sans-serif; overflow: hidden; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; list-style-type: none; }
 
-body h1 { position: absolute; top: 24%; left: 60%; width: 100%; font-size: 15vw; color: white; padding-bottom: 4vw; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+body h1 { width: 100%; font-size: 60px; color: white; text-align: center; }
 
-body h2 { position: absolute; width: 100%; color: white; top: 34%; left: 70%; font-size: 10vw; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+body h2 { width: 100%; color: white; font-size: 40px; text-align: center; }
 
-body .button1 { border: 0.3vh solid white; width: 35vw; text-align: center; padding-top: 2vw; padding-bottom: 2vw; padding-left: 10vw; padding-right: 10vw; border-radius: 20vw; position: absolute; font-size: 5vw; top: 70%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+body a { text-decoration: none; }
 
-body .button1 a { text-decoration: none; color: white; }
+body a:visited { color: #fff; }
 
-body .button2 { border: 0.3vh solid white; width: 35vw; text-align: center; padding-top: 2vw; padding-bottom: 2vw; padding-left: 10vw; padding-right: 10vw; border-radius: 20vw; position: absolute; top: 77%; left: 50%; font-size: 5vw; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+body a:hover { color: black; background-color: #fff; }
 
-body .button2 a { text-decoration: none; color: white; }
+body .button { border: 2px solid white; width: 200px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 5vw; color: #fff; cursor: pointer; }
 
-body .button3 { border: 0.3vh solid white; width: 35vw; text-align: center; padding-top: 2vw; padding-bottom: 2vw; padding-left: 10vw; padding-right: 10vw; border-radius: 20vw; position: absolute; top: 84%; left: 50%; font-size: 5vw; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+main { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-body .button3 a { text-decoration: none; color: white; }
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 20px; }
 /*# sourceMappingURL=accueil.css.map */

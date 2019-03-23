@@ -5,80 +5,52 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      font-family: 'Quicksand', sans-serif;
-     overflow: hidden!important;
+     overflow: hidden;
+
      user-select: none;
      list-style-type:none;
      h1{
-          position: absolute;
-          top: 24%; left: 60%;
           width: 100%;
-          font-size: 15vw;
+          font-size: 60px;
           color: white;
-          padding-bottom: 4vw;
-          transform: translate(-50%, -50%);
+          text-align: center;
      }
      h2{
-          position: absolute;
           width: 100%;
           color: white;
-          top: 34%; left: 70%;
-          font-size: 10vw;
-          transform: translate(-50%, -50%);
-     }
-     .button1{
-          border: 0.3vh solid white;
-          width: 35vw;
+          font-size: 40px;
           text-align: center;
-          padding-top: 2vw;
-          padding-bottom: 2vw;
-          padding-left: 10vw;
-          padding-right: 10vw;
-          border-radius: 20vw;
-          position: absolute;
-          font-size: 5vw;
-          top: 70%; left: 50%;
-          transform: translate(-50%, -50%);
-          a{
-               text-decoration: none;
-               color: white;
-          }
      }
-     .button2{
-          border: 0.3vh solid white;
-          width: 35vw;
+     a{
+          text-decoration: none;
+     }
+     a:visited{
+          color: #fff;
+     }
+     a:hover{
+          color:black;
+          background-color: #fff;
+     }
+     .button{
+          border: 2px solid white;
+          width: 200px;
           text-align: center;
-          padding-top: 2vw;
-          padding-bottom: 2vw;
-          padding-left: 10vw;
-          padding-right: 10vw;
-          border-radius: 20vw;
-          position: absolute;
-          top: 77%; left: 50%;
+          padding: 10px 5px;
+          border-radius: 50px;
           font-size: 5vw;
-          transform: translate(-50%, -50%);
-          a{
-               text-decoration: none;
-               color: white;
-          }
-          
+          color: #fff;
+          cursor: pointer;
      }
-     .button3{
-          border: 0.3vh solid white;
-          width: 35vw;
-          text-align: center;
-          padding-top: 2vw;
-          padding-bottom: 2vw;
-          padding-left: 10vw;
-          padding-right: 10vw;
-          border-radius: 20vw;
-          position: absolute;
-          top: 84%; left: 50%;
-          font-size: 5vw;
-          transform: translate(-50%, -50%);
-          a{
-               text-decoration: none;
-               color: white;
-          }
-          
-     }
+}
+main{
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+}
+.flex{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
 }
