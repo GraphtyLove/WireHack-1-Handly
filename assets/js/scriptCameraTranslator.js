@@ -26,8 +26,7 @@ function handleStream(stream) {
 init();
 
 // Function for presentation
-let prentationSim = document.getElementById('invisible')
-presentationSim.addEventListener('mousedown', wAppear);
+let presentationSim = document.getElementById('invisible').addEventListener('mousedown', wAppear);
 
 function wAppear() {
     console.log("test")
