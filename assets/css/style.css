@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html body { margin: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-family: "Quicksand", sans-serif; color: #fff; background: -webkit-gradient(linear, left top, left bottom, color-stop(12%, #00aeef), to(#00315e)); background: linear-gradient(180deg, #00aeef 12%, #00315e 100%); background-size: cover; background-attachment: fixed; overflow-x: hidden; }
+
+html h1 { text-align: center; font-size: 60px; }
+
+@media screen and (min-width: 1000px) { h1 { font-size: 100px; } }
+
+body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+svg { height: 200px; margin: 100px; }
+
+h1 { width: 100%; font-size: 55px; color: white; text-align: center; margin: 5px; }
+
+h2 { width: 100%; color: white; font-size: 35px; text-align: center; margin: 5px; margin-bottom: 55px; }
+
+a { text-decoration: none; }
+
+a:visited { color: #fff; }
+
+a:hover { color: #000; background-color: #fff; }
+
+.button { border: 2px solid white; width: 200px; text-align: center; padding: 10px 5px; border-radius: 50px; font-size: 10px; color: #fff; cursor: pointer; }
+
+main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 20px; }
+
+@media screen and (min-width: 601px) and (max-width: 999px) { h1 { font-size: 65px; }
+  h2 { font-size: 40px; }
+  .button { width: 250px; font-size: 15px; }
+  svg { height: 250px; margin-bottom: 100px; } }
+
+@media screen and (min-width: 1000px) { h1 { font-size: 75px; }
+  h2 { font-size: 40px; }
+  .button { width: 250px; font-size: 20px; }
+  svg { height: 250px; margin-bottom: 50px; } }
+/*# sourceMappingURL=style.css.map */

@@ -6,29 +6,28 @@ const constraints = { // Parameters of the stream
     video: { // Video 100% of the media screen
         width: window.innerWidth, height: window.innerHeight 
     }
-};
+}
 
 // initialization of the camera zone on screen
 async function init() {
-    const stream = await navigator.mediaDevices.getUserMedia(constraints);
-    handleStream(stream);
-    let ctx = canvas.getContext('2d');
-    ctx.drawImage(camera, 0, 0, window.innerHeight, window.innerWidth);
+    const stream = await navigator.mediaDevices.getUserMedia(constraints)
+    handleStream(stream)
+    let ctx = canvas.getContext('2d')
+    ctx.drawImage(camera, 0, 0, window.innerHeight, window.innerWidth)
 }
 
 // Function to stream camera
 function handleStream(stream) {
-    window.stream = stream;
-    camera.srcObject = stream;
+    window.stream = stream
+    camera.srcObject = stream
 }
 
 // Initialization at the launch of the page
-init();
+init()
 
-// Function for presentation
-let presentationSim = document.getElementById('invisible').addEventListener('mousedown', wAppear);
+// Function for presentation that show a letter when click on the invisible DIV
+let presentationSim = document.getElementById('invisible').addEventListener('mousedown', wAppear)
 
 function wAppear() {
-    console.log("test")
-    document.getElementById('translatedLetter').style.opacity = '1';
+    document.getElementById('translatedLetter').style.opacity = '1'
 }

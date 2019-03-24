@@ -1,0 +1,42 @@
+@import "GENERAL";
+@import "COLORS";
+@import "NAV";
+
+body{
+    background-color: #000;
+}
+.translatedLetter {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 12%;
+    background-color: rgba(192, 192, 192, 0.5);
+    color:  $clearBlue;
+    font-size: 700%;
+    font-weight: bold;
+    text-align: center;
+    z-index : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    z-index: 1;
+}
+
+.camera {
+position: flex;
+height: 94vh;
+width: 100vw;
+}
+
+.invisible {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
