@@ -1,6 +1,7 @@
 # WireHack-Medical-Project
 
-Project for the WireHack 2019
+Project for the WireHack 2019.
+First price and price of the better presentation.
 
 ## What?
 An app that allow hard to heard and muted people to communicate with others without force them to learn sygn's language.
