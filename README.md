@@ -10,6 +10,6 @@ An app that allow hard to heard and muted people to communicate with others with
 - Fammily of them
 - Public instututions (administration, school,...)
 ## How?
-With a sygn's dictionary and a live tranlator. 
+With a sygn's dictionary and a live tranlator.
 ## Pourquoi?
 For make their life better and make a lucrative business.
