@@ -20,7 +20,7 @@ An app that allow hard to heard and muted people to communicate with others with
 With a sygn's dictionary and a live tranlator.
 
 ## Why?
-To make their life better and make a lucrative business.
+To make their life better!
 
 ## Who?
 * [Maxim Berge](https://www.linkedin.com/in/maxim-berge-94b486179/) *-> Project manager + front-end code + Presentation*
