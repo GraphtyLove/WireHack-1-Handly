@@ -7,8 +7,8 @@ First price and price of the better presentation.
 An app that allow hard to heard and muted people to communicate with others without force them to learn sygn's language.
 
 ## Screenshot
-![Screenshot of the home page](assets/screenshot-site-1.png)
-![Screenshot of the dictionary page](assets/screenshot-site-2.png)
+![Screenshot of the home page](assets/img/screenshot-site-1.png)
+![Screenshot of the dictionary page](assets/img/screenshot-site-2.png)
 
 ## Target?
 - Hard to heard people
