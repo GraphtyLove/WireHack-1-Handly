@@ -1,7 +1,7 @@
 # WireHack-Handly
 
-Project for the WireHack 2019.
-First price and price of the better presentation.
+Project for the WireHack 2019.\n
+**First price** 🏆 and **price of the best presentation** 🏆.
 
 ## What?
 An app that allow hard to heard and muted people to communicate with others without force them to learn sygn's language.
