@@ -23,7 +23,7 @@ With a sygn's dictionary and a live tranlator.
 To make their life better and make a lucrative business.
 
 ## Who?
-* [Maxim Berge](https://www.linkedin.com/in/maxim-berge-94b486179/) -> Project manager + front-end code + Presentation
-* [Cassandra Caestecker](https://www.linkedin.com/in/cassandra-caestecker/) -> Design + Mockup + front-end code
-* [Amaury Dotrice](https://www.linkedin.com/in/amaurydotrice/) -> Front-end code
-* [Adrien Godaert](https://www.linkedin.com/in/adriengodaert/) -> Front-end code
+* [Maxim Berge](https://www.linkedin.com/in/maxim-berge-94b486179/) *-> Project manager + front-end code + Presentation*
+* [Cassandra Caestecker](https://www.linkedin.com/in/cassandra-caestecker/) *-> Design + Mockup + front-end code*
+* [Amaury Dotrice](https://www.linkedin.com/in/amaurydotrice/) *-> Front-end code*
+* [Adrien Godaert](https://www.linkedin.com/in/adriengodaert/) *-> Front-end code*
