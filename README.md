@@ -1,6 +1,6 @@
 # WireHack-Handly
 
-Project for the WireHack 2019.\n
+Project for the WireHack 2019.<br/>
 **First price** 🏆 and **price of the best presentation** 🏆.
 
 ## What?
